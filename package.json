@@ -1,6 +1,6 @@
 {
-	"name": "empty-react",
-	"version": "1.0.0",
+	"name": "react-typescript-webpack",
+	"version": "0.0.1",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
