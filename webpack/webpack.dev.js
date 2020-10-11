@@ -1,6 +1,6 @@
 const merge = require("webpack-merge");
 const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
-const common = require("../webpack.common");
+const common = require("./webpack.common");
 
 const config = {
   mode: "development",
