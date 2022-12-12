@@ -3,6 +3,9 @@ const ReactRefreshWebpackPlugin = require("@pmmmwh/react-refresh-webpack-plugin"
 const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
 const common = require("./webpack.common");
 
+/**
+ * @type {import("webpack").Configuration}
+ */
 const config = {
   mode: "development",
   devtool: "source-map",

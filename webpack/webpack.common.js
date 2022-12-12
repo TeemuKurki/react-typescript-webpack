@@ -2,6 +2,9 @@ const path = require("path");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
+/**
+ * @type {import("webpack").Configuration}
+ */
 module.exports = {
   // webpack will take the files from ./src/index
   entry: "./src/index",
